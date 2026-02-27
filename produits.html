@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Produits</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Nos Imprimantes</h1>
+    <nav>
+        <a href="index.html">Accueil</a>
+        <a href="produits.html">Produits</a>
+        <a href="panier.html">Panier</a>
+        <a href="details.html">Details</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<section class="full-bg" style="background-image:url('images/hero.jpg')">
+<div class="overlay">
+
+<div class="products">
+
+    <div class="card">
+        <img src="images/images (15).jpeg">
+        <h3>Imprimante HP Laser</h3>
+        <p>250$</p>
+        <button onclick="addToCart('HP Laser',250)">Ajouter au panier</button>
+    </div>
+
+    <div class="card">
+        <img src="images/images (14).jpeg">
+        <h3>Canon Pixma</h3>
+        <p>180$</p>
+        <button onclick="addToCart('Canon Pixma',180)">Ajouter au panier</button>
+    </div>
+
+    <div class="card">
+        <img src="images/images (13).jpeg">
+        <h3>Epson EcoTank</h3>
+        <p>300$</p>
+        <button onclick="addToCart('Epson EcoTank',300)">Ajouter au panier</button>
+    </div>
+
+</div>
+
+</div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
