@@ -25,7 +25,7 @@ text-decoration:none;
 }
 
 .hero{
-background:url('images/impri.jpg') no-repeat center center/cover;
+background:url('impri.jpg') no-repeat center center/cover;
 height:100vh;
 display:flex;
 align-items:center;
@@ -130,3 +130,4 @@ background:rgba(0,0,0,0.6);
 padding:40px;
 border-radius:10px;
 }
+
